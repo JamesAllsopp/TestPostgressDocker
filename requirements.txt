@@ -1,0 +1,3 @@
+mimesis==15.1.0
+psycopg2==2.9.9
+sqlalchemy-utils==0.41.1
