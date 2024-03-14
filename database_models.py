@@ -1,15 +1,14 @@
-from typing import List
-from typing import Optional
-from sqlalchemy import ForeignKey
 from sqlalchemy import String
 from sqlalchemy.orm import DeclarativeBase
 from sqlalchemy.orm import Mapped
 from sqlalchemy.orm import mapped_column
-from sqlalchemy.orm import relationship
+
 from sqlalchemy import create_engine
 
 
-engine = create_engine("postgresql+psycopg2://postgres:mysecretpassword@localhost:5432/test_database" ,echo=True)
+engine = create_engine(
+    "postgresql+psycopg2://postgres:mysecretpassword@localhost:5432/test_database",
+    echo=True)
 
 
 class Base(DeclarativeBase):
@@ -40,5 +39,3 @@ class Owner(Base):
 #     __tablename__ = "apikeys"
 #     id: Mapped[int] = mapped_column(primary_key=True)
 #     apikey: Mapped[string] = mapped_column(ForeignKey(
-
-#Base.metadata.create_all(engine)
