@@ -35,10 +35,19 @@ pg_dump -h localhost -p 5432 -U postgres -C test_database > docker/test.sql
 
 To build the final image (must be run from the docker image):
 ```
+cd docker
 podman build -t testdb:v1 .
 ```
 
 To run final image:
 ```
 podman run --replace --name test_db -e POSTGRES_PASSWORD=mysecretpassword -d -p5432:5432 localhost/testdb:v1 
+```
+
+To upload an image to docker.io, after creating an account and a repository
+```
+
+podman build -t localhost/testdb .  
+podman login -u jallsopp -p <your password>  -v docker.io/jallsopp/test-postgres  
+podman push cae520a4dea8 docker://docker.io/jallsopp/testdb:1.0.0  
 ```
