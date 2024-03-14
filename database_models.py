@@ -25,6 +25,8 @@ class User(Base):
     version: Mapped[str] = mapped_column(String(30))
     #owner: Mapped["Owner"] = relationship(back_populates="user", cascade="all, delete-orphan")
 
+    def __repr__(self) -> str:
+        return f"User(id={self.id!r}, uid={self.uid!r}, name={self.name!r}, favourite_food={self.favourite_food!r}, version={self.version!r})"
 
 class Owner(Base):
     __tablename__ = "owner"
