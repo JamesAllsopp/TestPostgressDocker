@@ -1,6 +1,8 @@
 import generate_person
 import database_models
 import read_write_pickle
+import dataclasses
+
 
 from sqlalchemy.orm import Session
 
@@ -18,4 +20,9 @@ with Session(database_models.engine) as session:
 
     session.add_all(people_list)
     session.commit()
-    read_write_pickle.save_pickle(people_list)
+    #print(type(people_list[0]))
+    #people_list_to_pickle = [dataclasses.asdict(p) for p in people_list]
+
+    data = session.query(database_models.User).all()
+    people_list_to_pickle = [row.__dict__ for row in data]
+    read_write_pickle.save_pickle(people_list_to_pickle)

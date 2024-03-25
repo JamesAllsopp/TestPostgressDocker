@@ -11,5 +11,7 @@ def get_everyone_from_user_table():
 
     return returned_values.all()
 
-vals = get_everyone_from_user_table()
-print(vals)
+
+if __name__ == '__main__':
+    vals = get_everyone_from_user_table() 
+    print(vals)

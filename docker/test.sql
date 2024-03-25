@@ -141,26 +141,26 @@ COPY public.owner (id, email, creator) FROM stdin;
 --
 
 COPY public.user_account (id, uid, name, favourite_food, version) FROM stdin;
-1	98fabb98-b9f7-4fc8-9f02-37ebc190bdee	increasing	Oysters Rockefeller	44.86.60
-2	308d183f-6c5a-455a-8ae9-19c60781307d	styles	Chowder	78.97.76
-3	e5ece496-745c-41f9-806b-b33adeddbd52	nh	Shawarma	54.67.43
-4	7b956c96-8ffb-45c4-b882-6d97b28f5ccc	samuel	Sichuan Hot Pot	77.23.27
-5	7e8cd403-30bb-4643-8901-0cce0f188bb7	welcome	Potato Wedges	69.54.29
-6	5fa2433f-fd60-4cca-b3e9-42c16365979d	reviewed	Protein bar	74.29.1
-7	4c1b8529-208b-4644-8f8f-15e99ebf6440	math	Risotto	39.33.88
-8	71e3545c-d105-482c-9b16-640f1d31a8e4	planning	Toaster Strudel	43.77.24
-9	dad753f7-d478-4756-83b9-4293f5b73c54	housewares	Fortune cookie	57.31.92
-10	f0051722-5852-4017-af9a-81b090fde0f7	romania	Muffuletta	20.59.84
-11	b8f7f0cc-9856-421a-ae25-3b7a8c12ef8c	deleted	Sour cream	43.70.18
-12	613b1abf-f4f6-4c8c-a7f8-88dffcc5f410	driving	Vichyssoise	95.52.28
-13	59b7ffa0-61b2-47a4-8b0d-adbbba64543f	preparation	Drunken chicken	92.78.63
-14	383e28dc-6ecb-4a06-be2a-d7345944ae2b	mask	Popover	89.10.2
-15	a3bd85e3-6587-4048-ae42-a6712f504ae5	effects	Fried chicken	15.81.2
-16	326e7f4a-bdbf-4cff-91a4-a3c1daf7ea94	registered	Senate bean soup	10.64.10
-17	1556f669-8721-426e-97cc-fd494a589705	else	Vichyssoise	97.69.26
-18	b3123701-da54-40cf-93cc-af36dee26285	adopted	Pastrami on Rye	76.65.17
-19	b300fbba-7e76-4b41-b096-682d35bb6306	goods	Rice and gravy	69.88.5
-20	04740779-e85c-4014-8f39-44401138c18d	farmer	Chili dog	53.12.49
+1	250e271d-81e9-4727-bc31-3eaa9ed8ace7	increasing	Oysters Rockefeller	44.86.60
+2	1c50eb5f-7b3b-4c6a-b94a-b25fb075bbc7	styles	Chowder	78.97.76
+3	9bcd023b-79ba-449a-aefa-4b33979ab5db	nh	Shawarma	54.67.43
+4	415dfa7f-1d1f-40a7-9ac9-9a84938e6dcb	samuel	Sichuan Hot Pot	77.23.27
+5	959c3df5-7874-44f7-9352-38e1d6837d17	welcome	Potato Wedges	69.54.29
+6	4cedc197-cec3-4791-8f25-b5d49e33a71d	reviewed	Protein bar	74.29.1
+7	54fd37f4-b453-4954-b129-82ee647cf668	math	Risotto	39.33.88
+8	6eecaa31-93d4-4ac7-914b-7611b3a82479	planning	Toaster Strudel	43.77.24
+9	751821b9-4ba5-4524-8381-0d20b9fb131b	housewares	Fortune cookie	57.31.92
+10	a9e2ce82-e4c6-4bd2-bc9f-a4c505bb1352	romania	Muffuletta	20.59.84
+11	a85102df-80d4-498a-b30b-77e9baccdd79	deleted	Sour cream	43.70.18
+12	0a8887d7-13ae-4dfd-a8be-1c051a361a77	driving	Vichyssoise	95.52.28
+13	a6046009-8d66-4e9e-956e-7b9fa5301f38	preparation	Drunken chicken	92.78.63
+14	eae8879a-6d9c-4a32-be25-605183c4460f	mask	Popover	89.10.2
+15	7af7561b-0cf1-4db9-b679-033c8576eaae	effects	Fried chicken	15.81.2
+16	00879554-d775-4aab-8737-25a17e823c22	registered	Senate bean soup	10.64.10
+17	cc86459b-c1bb-4b71-bd4b-b774ac90d1cb	else	Vichyssoise	97.69.26
+18	d3e6d8f0-9214-4322-81e2-8e619f8de5e5	adopted	Pastrami on Rye	76.65.17
+19	d846e7c2-5c18-4fb7-ba1f-956424b2d5e3	goods	Rice and gravy	69.88.5
+20	ee07b4a8-9d76-4ffb-885b-5da614e89c62	farmer	Chili dog	53.12.49
 \.
 
 
